@@ -1,0 +1,14 @@
+{
+	"../../Desktop/packs-master/packs-master/stable/behavior/loot_tables/entities/pillager_captain_equipment.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/vindicatorstill.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/witherstill.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/shulkerstill.json": {
+		"data": {}
+	}
+}

@@ -1,0 +1,1278 @@
+{
+	"file_path": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\v3.5Custombeh\\loot_tables\\entities\\shulkerstill.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "a165ff1e_0c6c_428b_b6b5_04f81de6d417",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"conditions": [
+								[
+									{
+										"condition": "killed_by_player"
+									}
+								]
+							],
+							"entries": [
+								{
+									"type": "item",
+									"weight": 0.01,
+									"name": "minecraft:shulker_shell"
+								},
+								{
+									"type": "item",
+									"weight": 0.1,
+									"name": "minecraft:ender_chest"
+								},
+								{
+									"type": "item",
+									"weight": 1,
+									"name": "minecraft:end_rod",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 2,
+												"max": 3
+											}
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 5,
+									"name": "minecraft:ender_pearl"
+								},
+								{
+									"type": "item",
+									"weight": 12.5,
+									"name": "minecraft:end_bricks",
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 2,
+												"max": 3
+											}
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"weight": 12.5,
+									"name": "minecraft:end_brick_stairs"
+								},
+								{
+									"name": "minecraft:end_stone",
+									"type": "item",
+									"weight": 25,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 2,
+												"max": 3
+											}
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
+										}
+									]
+								},
+								{
+									"type": "item",
+									"name": "minecraft:recovery_compass",
+									"weight": 1
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"conditions": [
+									[
+										{
+											"condition": "killed_by_player"
+										}
+									]
+								],
+								"entries": [
+									{
+										"type": "item",
+										"weight": 0.01,
+										"name": "minecraft:shulker_shell"
+									},
+									{
+										"type": "item",
+										"weight": 0.1,
+										"name": "minecraft:ender_chest"
+									},
+									{
+										"type": "item",
+										"weight": 1,
+										"name": "minecraft:end_rod",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 2,
+													"max": 3
+												}
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 5,
+										"name": "minecraft:ender_pearl"
+									},
+									{
+										"type": "item",
+										"weight": 12.5,
+										"name": "minecraft:end_bricks",
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 2,
+													"max": 3
+												}
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"weight": 12.5,
+										"name": "minecraft:end_brick_stairs"
+									},
+									{
+										"name": "minecraft:end_stone",
+										"type": "item",
+										"weight": 25,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 2,
+													"max": 3
+												}
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "item",
+										"name": "minecraft:recovery_compass",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"conditions": [
+										[
+											{
+												"condition": "killed_by_player"
+											}
+										]
+									],
+									"entries": [
+										{
+											"type": "item",
+											"weight": 0.01,
+											"name": "minecraft:shulker_shell"
+										},
+										{
+											"type": "item",
+											"weight": 0.1,
+											"name": "minecraft:ender_chest"
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "minecraft:end_rod",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 5,
+											"name": "minecraft:ender_pearl"
+										},
+										{
+											"type": "item",
+											"weight": 12.5,
+											"name": "minecraft:end_bricks",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 12.5,
+											"name": "minecraft:end_brick_stairs"
+										},
+										{
+											"name": "minecraft:end_stone",
+											"type": "item",
+											"weight": 25,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"name": "minecraft:recovery_compass",
+											"weight": 1
+										}
+									]
+								},
+								"key": "conditions",
+								"is_minified": true,
+								"children": [
+									[
+										{
+											"condition": "killed_by_player"
+										}
+									]
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"conditions": [
+										[
+											{
+												"condition": "killed_by_player"
+											}
+										]
+									],
+									"entries": [
+										{
+											"type": "item",
+											"weight": 0.01,
+											"name": "minecraft:shulker_shell"
+										},
+										{
+											"type": "item",
+											"weight": 0.1,
+											"name": "minecraft:ender_chest"
+										},
+										{
+											"type": "item",
+											"weight": 1,
+											"name": "minecraft:end_rod",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 5,
+											"name": "minecraft:ender_pearl"
+										},
+										{
+											"type": "item",
+											"weight": 12.5,
+											"name": "minecraft:end_bricks",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"weight": 12.5,
+											"name": "minecraft:end_brick_stairs"
+										},
+										{
+											"name": "minecraft:end_stone",
+											"type": "item",
+											"weight": 25,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										},
+										{
+											"type": "item",
+											"name": "minecraft:recovery_compass",
+											"weight": 1
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 0.01,
+											"name": "minecraft:shulker_shell"
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 0.1,
+											"name": "minecraft:ender_chest"
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 1,
+											"name": "minecraft:end_rod",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 5,
+											"name": "minecraft:ender_pearl"
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 12.5,
+											"name": "minecraft:end_bricks",
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"weight": 12.5,
+											"name": "minecraft:end_brick_stairs"
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"name": "minecraft:end_stone",
+											"type": "item",
+											"weight": 25,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 2,
+														"max": 3
+													}
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
+												}
+											]
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 0.01,
+												"name": "minecraft:shulker_shell"
+											},
+											{
+												"type": "item",
+												"weight": 0.1,
+												"name": "minecraft:ender_chest"
+											},
+											{
+												"type": "item",
+												"weight": 1,
+												"name": "minecraft:end_rod",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 5,
+												"name": "minecraft:ender_pearl"
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_bricks",
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"weight": 12.5,
+												"name": "minecraft:end_brick_stairs"
+											},
+											{
+												"name": "minecraft:end_stone",
+												"type": "item",
+												"weight": 25,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 2,
+															"max": 3
+														}
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
+													}
+												]
+											},
+											{
+												"type": "item",
+												"name": "minecraft:recovery_compass",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:recovery_compass",
+											"weight": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
